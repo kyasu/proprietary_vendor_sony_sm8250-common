@@ -13943,7 +13943,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder",
                 "libdrm",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
@@ -21573,7 +21573,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "capi_v2_aptX_CLHDADV_Encoder",
+    name: "vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDADV_Encoder_so",
     filename: "capi_v2_aptX_CLHDADV_Encoder.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so",
@@ -21582,7 +21582,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "capi_v2_aptX_CLHDAD_Speech_Decoder",
+    name: "vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Speech_Decoder_so",
     filename: "capi_v2_aptX_CLHDAD_Speech_Decoder.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so",
@@ -21591,7 +21591,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libapps_mem_heap",
+    name: "vendor_lib_rfsa_adsp_libapps_mem_heap_so",
     filename: "libapps_mem_heap.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so",
@@ -21600,7 +21600,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_skel_so",
     filename: "libbitml_nsp_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
@@ -21609,7 +21609,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcamera_nn_skel",
+    name: "vendor_lib_rfsa_adsp_libcamera_nn_skel_so",
     filename: "libcamera_nn_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so",
@@ -21618,7 +21618,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcvpdsp_skel",
+    name: "vendor_lib_rfsa_adsp_libcvpdsp_skel_so",
     filename: "libcvpdsp_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_skel.so",
@@ -21627,7 +21627,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdspCV_skel",
+    name: "vendor_lib_rfsa_adsp_libdspCV_skel_so",
     filename: "libdspCV_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
@@ -21636,7 +21636,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_binning_so",
     filename: "libdsp_streamer_binning.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
@@ -21645,7 +21645,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvadsp",
+    name: "vendor_lib_rfsa_adsp_libfastcvadsp_so",
     filename: "libfastcvadsp.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
@@ -21654,7 +21654,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvdsp_skel",
+    name: "vendor_lib_rfsa_adsp_libfastcvdsp_skel_so",
     filename: "libfastcvdsp_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
@@ -21663,7 +21663,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhalide_hexagon_remote_skel",
+    name: "vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so",
     filename: "libhalide_hexagon_remote_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libhalide_hexagon_remote_skel.so",
@@ -21672,7 +21672,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhexagon_nn_skel",
+    name: "vendor_lib_rfsa_adsp_libhexagon_nn_skel_so",
     filename: "libhexagon_nn_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so",
@@ -21681,7 +21681,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveObjectSegmentation_skel",
+    name: "vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so",
     filename: "libscveObjectSegmentation_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
@@ -21690,7 +21690,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveT2T_skel",
+    name: "vendor_lib_rfsa_adsp_libscveT2T_skel_so",
     filename: "libscveT2T_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
@@ -21699,7 +21699,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsnpe_dsp_v66_domains_v2_skel",
+    name: "vendor_lib_rfsa_adsp_libsnpe_dsp_v66_domains_v2_skel_so",
     filename: "libsnpe_dsp_v66_domains_v2_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so",
@@ -21708,7 +21708,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsns_device_mode_skel",
+    name: "vendor_lib_rfsa_adsp_libsns_device_mode_skel_so",
     filename: "libsns_device_mode_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so",
@@ -21717,7 +21717,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsns_low_lat_stream_skel",
+    name: "vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so",
     filename: "libsns_low_lat_stream_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so",
@@ -21726,7 +21726,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsomc_alfortlpserv_skel",
+    name: "vendor_lib_rfsa_adsp_libsomc_alfortlpserv_skel_so",
     filename: "libsomc_alfortlpserv_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsomc_alfortlpserv_skel.so",
@@ -21735,7 +21735,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsomc_cornfrosty_skel",
+    name: "vendor_lib_rfsa_adsp_libsomc_cornfrosty_skel_so",
     filename: "libsomc_cornfrosty_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsomc_cornfrosty_skel.so",
@@ -21744,7 +21744,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsomc_donutscmnserv_skel",
+    name: "vendor_lib_rfsa_adsp_libsomc_donutscmnserv_skel_so",
     filename: "libsomc_donutscmnserv_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsomc_donutscmnserv_skel.so",
@@ -21753,7 +21753,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsomc_milkyrollserv_skel",
+    name: "vendor_lib_rfsa_adsp_libsomc_milkyrollserv_skel_so",
     filename: "libsomc_milkyrollserv_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsomc_milkyrollserv_skel.so",
@@ -21762,7 +21762,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libsomc_pdnserv_skel",
+    name: "vendor_lib_rfsa_adsp_libsomc_pdnserv_skel_so",
     filename: "libsomc_pdnserv_skel.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libsomc_pdnserv_skel.so",
@@ -21771,7 +21771,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libstdc++",
+    name: "vendor_lib_rfsa_adsp_libstdc++_so",
     filename: "libstdc++.so",
     owner: "sony",
     src: "proprietary/vendor/lib/rfsa/adsp/libstdc++.so",
